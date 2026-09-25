@@ -1,0 +1,21 @@
+record_id,batch_id,product_name,dosage_form,assay_percent,dissolution_percent,temperature_c,humidity_percent,manufacture_date,expiry_date,units_tested,site,review_status
+R001,BPH-001,Paracetamol,Tablet,99.2,88.0,24.0,52,2026-01-10,2028-01-09,20,Delhi,Reviewed
+R002,BPH-001,Paracetamol,Tablet,98.7%,86.5,25.5,57,2026-01-10,2028-01-09,20,Delhi,Reviewed
+R003,BPH-002,Ibuprofen,Tablet,,82.0,23.5,49,2026-02-03,2028-02-02,20,Delhi,Pending
+R004,BPH-002, ibuprofen ,tablet,100.4,81.5,23.9,51,2026-02-03,2028-02-02,20,Delhi,Pending
+R005,BPH-003,Cetirizine,Tablet,101.1,not recorded,22.8,48,2026-02-15,2028-02-14,20,Noida,Reviewed
+R005,BPH-003,Cetirizine,Tablet,101.1,not recorded,22.8,48,2026-02-15,2028-02-14,20,Noida,Reviewed
+R007,BPH-004,Amoxicillin,Capsule,97.9,79.0,27.2,66,2026-03-01,2027-08-31,12,Gurugram,Investigate
+R008,BPH-004,Amoxicillin,Capsule,98.4,80.5,26.8,,2026-03-01,2027-08-31,12,Gurugram,Investigate
+R009,BPH-005,Metformin,Tablet,102.0,92.0,24.6,54,2026-03-12,2028-03-11,24,Delhi,Reviewed
+R010,BPH-005,Metformin,Tablet,101.5,91.0,24.9,55,2026-03-12,2028-03-11,24,Delhi,Reviewed
+R011,BPH-006,Azithromycin,Tablet,96.8,78.5,28.0,70,2026/03/20,2028/03/19,15,Noida,Investigate
+R012,BPH-006,Azithromycin,Tablet,97.2,79.5,28.4,71,2026/03/20,2028/03/19,15,Noida,Investigate
+R013,BPH-007,Omeprazole,Capsule,100.0,89.0,23.0,47,2026-04-02,2028-04-01,18,Delhi,Reviewed
+R014,BPH-007,Omeprazole,Capsule,99.6,88.5,23.2,46,2026-04-02,2028-04-01,18,Delhi,Reviewed
+R015,BPH-008,Amlodipine,Tablet,105.2,84.0,25.0,60,2026-04-18,2028-04-17,20,Gurugram,Review
+R016,BPH-008,Amlodipine,Tablet,94.7,83.0,25.1,61,2026-04-18,2028-04-17,20,Gurugram,Review
+R017,BPH-009,Pantoprazole,Tablet,99.1,87.0,21.9,44,18-04-2026,17-04-2028,20,Noida,Reviewed
+R018,BPH-009,Pantoprazole,Tablet,99.4,87.5,22.1,45,18-04-2026,17-04-2028,20,Noida,Reviewed
+R019,BPH-010,Losartan,Tablet,100.6,90.0,24.4,53,2026-05-05,2028-05-04,20,Delhi,
+R020,BPH-010,Losartan,Tablet,100.2,,24.5,52,2026-05-05,2028-05-04,20,Delhi,Reviewed

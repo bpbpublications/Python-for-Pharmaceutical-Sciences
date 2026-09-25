@@ -1,0 +1,9 @@
+report_id,drug_code,severity,age_group,sex,report_date,site
+ADR001,Drug_A,Mild,Adult,F,2026-01-03,Delhi
+ADR002,Drug_B,Moderate,Adult,M,2026-01-04,Delhi
+ADR003,Drug_A,Mild,Adult,F,2026-01-05,Noida
+ADR004,Drug_C,Severe,Older adult,M,2026-01-06,Gurugram
+ADR005,Drug_B,,Adult,F,2026-01-07,Delhi
+ADR005,Drug_B,,Adult,F,2026-01-07,Delhi
+ADR007,Drug_A,Moderate,Adult,M,2026-01-08,Noida
+ADR008,Drug_C,Mild,Older adult,F,2026-01-09,Gurugram

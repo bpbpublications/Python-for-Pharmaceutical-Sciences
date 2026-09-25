@@ -1,0 +1,82 @@
+chapter,dataset,rows,column,meaning_or_unit,imported_dtype,missing_count
+9,batch_assay.csv,5,sample_id,Sample identifier,object,0
+9,batch_assay.csv,5,measured_mg,Simulated measured amount in milligrams,int64,0
+9,batch_assay.csv,5,label_claim_mg,Labelled amount in milligrams,int64,0
+9,dissolution_profile.csv,6,time_min,Sampling time in minutes,int64,0
+9,dissolution_profile.csv,6,unit_1,Simulated drug release (%) for unit 1,int64,0
+9,dissolution_profile.csv,6,unit_2,Simulated drug release (%) for unit 2,int64,0
+9,dissolution_profile.csv,6,unit_3,Simulated drug release (%) for unit 3,int64,0
+9,dissolution_profile.csv,6,unit_4,Simulated drug release (%) for unit 4,int64,0
+9,dissolution_profile.csv,6,unit_5,Simulated drug release (%) for unit 5,int64,0
+9,dissolution_profile.csv,6,unit_6,Simulated drug release (%) for unit 6,int64,0
+9,pk_missing_values.csv,3,time_hr,Sampling time in hours,int64,0
+9,pk_missing_values.csv,3,concentration_mg_l,Concentration in mg/L,float64,1
+9,pk_profile.csv,8,time_hr,Sampling time in hours,float64,0
+9,pk_profile.csv,8,concentration_mg_l,Concentration in mg/L,float64,0
+9,tablet_weights.csv,10,tablet_id,Tablet identifier,int64,0
+9,tablet_weights.csv,10,weight_mg,Tablet weight in milligrams,int64,0
+10,adr_reports.xlsx,40,report_id,Synthetic report identifier,object,0
+10,adr_reports.xlsx,40,patient_age,Age in years; includes missing entries,float64,4
+10,adr_reports.xlsx,40,sex,Recorded category; inconsistent text retained for cleaning,object,0
+10,adr_reports.xlsx,40,drug,Medicine category,object,0
+10,adr_reports.xlsx,40,reaction,Reported reaction label,object,0
+10,adr_reports.xlsx,40,severity,Recorded severity category,object,2
+10,adr_reports.xlsx,40,causality,Recorded causality category; not independently established,object,0
+10,adr_reports.xlsx,40,outcome,Recorded outcome category,object,0
+10,dose_series.csv,4,subject_id,Synthetic subject identifier,object,0
+10,dose_series.csv,4,dose_mg,Recorded classroom dose in milligrams,int64,0
+10,pk_study.csv,60,subject_id,Synthetic subject identifier,object,0
+10,pk_study.csv,60,dose_mg,Recorded classroom dose in milligrams,int64,0
+10,pk_study.csv,60,time_h,Sampling time in hours,float64,0
+10,pk_study.csv,60,conc_ng_ml,Concentration in ng/mL,float64,0
+10,pk_study.csv,60,age_years,Age in years,int64,0
+10,pk_study.csv,60,weight_kg,Body weight in kilograms,float64,0
+11,adr_reports_raw.csv,8,report_id,Synthetic report identifier,object,0
+11,adr_reports_raw.csv,8,drug_code,Medicine code,object,0
+11,adr_reports_raw.csv,8,severity,Recorded severity category,object,2
+11,adr_reports_raw.csv,8,age_group,Age category,object,0
+11,adr_reports_raw.csv,8,sex,Recorded category; inconsistent text retained for cleaning,object,0
+11,adr_reports_raw.csv,8,report_date,Recorded report date,object,0
+11,adr_reports_raw.csv,8,site,Simulated collection site,object,0
+11,pharma_quality_clean_expected.csv,19,record_id,Simulated unique record identifier,object,0
+11,pharma_quality_clean_expected.csv,19,batch_id,Batch identifier,object,0
+11,pharma_quality_clean_expected.csv,19,product_name,Product name; may require text standardization,object,0
+11,pharma_quality_clean_expected.csv,19,dosage_form,Pharmaceutical dosage-form label,object,0
+11,pharma_quality_clean_expected.csv,19,assay_percent,Assay percentage; raw file may contain text or missing values,float64,0
+11,pharma_quality_clean_expected.csv,19,dissolution_percent,Dissolution percentage; raw file may contain invalid text,float64,0
+11,pharma_quality_clean_expected.csv,19,temperature_c,Temperature in degrees Celsius,float64,0
+11,pharma_quality_clean_expected.csv,19,humidity_percent,Relative humidity in percent,float64,0
+11,pharma_quality_clean_expected.csv,19,manufacture_date,Recorded manufacture date,object,0
+11,pharma_quality_clean_expected.csv,19,expiry_date,Recorded expiry date,object,0
+11,pharma_quality_clean_expected.csv,19,units_tested,Number of units tested,int64,0
+11,pharma_quality_clean_expected.csv,19,site,Simulated collection site,object,0
+11,pharma_quality_clean_expected.csv,19,review_status,Recorded review status,object,0
+11,pharma_quality_raw.csv,20,record_id,Simulated unique record identifier,object,0
+11,pharma_quality_raw.csv,20,batch_id,Batch identifier,object,0
+11,pharma_quality_raw.csv,20,product_name,Product name; may require text standardization,object,0
+11,pharma_quality_raw.csv,20,dosage_form,Pharmaceutical dosage-form label,object,0
+11,pharma_quality_raw.csv,20,assay_percent,Assay percentage; raw file may contain text or missing values,object,1
+11,pharma_quality_raw.csv,20,dissolution_percent,Dissolution percentage; raw file may contain invalid text,object,1
+11,pharma_quality_raw.csv,20,temperature_c,Temperature in degrees Celsius,float64,0
+11,pharma_quality_raw.csv,20,humidity_percent,Relative humidity in percent,float64,1
+11,pharma_quality_raw.csv,20,manufacture_date,Recorded manufacture date,object,0
+11,pharma_quality_raw.csv,20,expiry_date,Recorded expiry date,object,0
+11,pharma_quality_raw.csv,20,units_tested,Number of units tested,int64,0
+11,pharma_quality_raw.csv,20,site,Simulated collection site,object,0
+11,pharma_quality_raw.csv,20,review_status,Recorded review status,object,1
+12,adr_reporting.csv,6,drug,Medicine category,object,0
+12,adr_reporting.csv,6,monitored_records,Synthetic denominator: monitored records,int64,0
+12,adr_reporting.csv,6,adr_reports,Synthetic report count,int64,0
+12,dissolution.csv,108,formulation,Formulation group,object,0
+12,dissolution.csv,108,time_min,Sampling time in minutes,int64,0
+12,dissolution.csv,108,vessel,Replicate vessel identifier,int64,0
+12,dissolution.csv,108,release_percent,Simulated percentage drug release,float64,0
+12,pk_oral_iv.csv,8,time_h,Sampling time in hours,float64,0
+12,pk_oral_iv.csv,8,oral_conc_ug_ml,Simulated oral concentration in micrograms/mL,float64,0
+12,pk_oral_iv.csv,8,iv_conc_ug_ml,Simulated IV concentration in micrograms/mL,float64,0
+12,tablet_qc.csv,30,tablet_id,Tablet identifier,object,0
+12,tablet_qc.csv,30,batch,Batch group,object,0
+12,tablet_qc.csv,30,weight_mg,Tablet weight in milligrams,float64,0
+12,tablet_qc.csv,30,hardness_n,Tablet hardness in newtons,float64,0
+12,tablet_qc.csv,30,disintegration_min,Disintegration time in minutes,float64,0
+12,tablet_qc.csv,30,assay_percent,Assay percentage; raw file may contain text or missing values,float64,0
